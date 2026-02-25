@@ -10,3 +10,11 @@ In the project directory, you can run:
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+
+### `docker`
+
+- Clone the repo
+- Navigate to directory
+- docker build -t tictac .
+- docker run -d --name tictac -p 80:80 tictac
